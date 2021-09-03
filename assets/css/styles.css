@@ -1,0 +1,335 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/03/2014, 02:51:06 PM
+    Author     : cjarlo
+*/
+/**
+mmm
+Principales
+- Rojo:        #D8262E
+- Amarillo:    #FFA300
+- Morado:      #873299
+
+Secundarios
+- Rojo:        #AB162B
+- Naranja:     #E24301
+
+nuevos colores
+
+- Rojo: #d8262e
+- Azul: #002e6c
+- Gris:#808284
+*/
+
+
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+*{margin:0;padding:0;}
+
+body{
+  background:#ffffff;
+  font-family:'Lato',sans-serif;
+}
+
+.button{
+  width:100px;
+  background:#D8262E;
+  display:block;
+  margin:0 auto;
+  margin-top:1%;
+  padding:10px;
+  text-align:center;
+  text-decoration:none;
+  color:#fff;
+  cursor:pointer;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+.button:hover{
+  background:#AB162B;
+}
+
+#login{
+  width:400px;
+  margin:0 auto;
+  margin-top:8px;
+  margin-bottom:2%;
+  transition:opacity 1s;
+  -webkit-transition:opacity 1s;
+}
+
+#triangle{
+  width:0;
+  border-top:12x solid transparent;
+  border-right:12px solid transparent;
+  border-bottom:12px solid #3399cc;
+  border-left:12px solid transparent;
+  margin:0 auto;
+}
+
+#login h1{
+  background:#D8262E;
+  padding:20px 0;
+  font-size:140%;
+  font-weight:300;
+  text-align:center;
+  color:#fff;
+}
+
+form{
+  background:#f0f0f0;
+  padding:6% 4%;
+}
+
+input[type="email"],input[type="password"]{
+  width:92%;
+  background:#fff;
+  margin-bottom:4%;
+  border:1px solid #ccc;
+  padding:4%;
+  font-family:'Lato',sans-serif;
+  font-size:95%;
+  color:#555;
+}
+
+input[type="submit"]{
+  width:100%;
+  background:#D8262E;
+  border:0;
+  padding:4%;
+  font-family:'Lato',sans-serif;
+  font-size:100%;
+  color:#fff;
+  cursor:pointer;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+input[type="submit"]:hover{
+  background:#AB162B;
+}
+
+
+
+
+
+
+.error{
+    border-color: #AB162B;
+    color:#D8262E;
+    padding: 3px;
+    border-style: dashed;
+    margin: 1px;
+    border-width: 1px;
+    text-align: center;
+}
+.success{
+    border-color: #58E86E;
+    color:#6FD97E;
+    padding: 3px;
+    border-style: dashed;
+    margin: 1px;
+    border-width: 1px;
+    text-align: center;
+}
+.empresa{
+    padding: 3px;
+    text-align: center;
+}
+.boton_guardar{background-color:#d8262f;
+               -webkit-border-top-left-radius:0px;
+               -moz-border-radius-topleft:0px;
+               border-top-left-radius:0px;
+               -webkit-border-top-right-radius:0px;
+               -moz-border-radius-topright:0px;
+               border-top-right-radius:0px;
+               -webkit-border-bottom-right-radius:0px;
+               -moz-border-radius-bottomright:0px;
+               border-bottom-right-radius:0px;
+               -webkit-border-bottom-left-radius:0px;
+               -moz-border-radius-bottomleft:0px;
+               border-bottom-left-radius:0px;
+               text-indent:0;
+               border:1px solid #d83526;
+               display:inline-block;
+               color:#ffffff;
+               /*margin-right: 5px;
+               margin-left: 0;*/
+               margin-bottom: 4%;
+    padding: 4%;
+    width: 92%;
+               font-size:14px;
+
+               font-style:normal;
+               /**height:32px;*/
+               line-height:20px;
+               width:auto;
+               text-decoration:none;
+               text-align:center;
+               text-shadow:1px 2px 0px #b23e35; }
+
+.boton_guardar:hover
+{
+    background-color:#d8262f; }
+
+.boton_guardar:active
+{
+    position:relative;
+    top:1px;
+}
+
+.visitas_footer{
+    position: fixed;
+    background-color: #873299;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+}
+
+.topnav{
+    height: auto;
+    background-color: #ffffff;
+    color: #873299;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    border-bottom: 1px solid #D8262E;
+}
+.topnav a{
+    color:#873299;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+    vertical-align: middle;
+}
+.right{
+    text-align: right;
+    vertical-align: middle;
+}
+.welcome{
+    padding-top: .5em;
+}
+
+
+.navbar-custom {
+  background-color: #dedede;
+  border-color: #cdcdcd;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#f8f8f8), to(#dedede));
+  background-image: -webkit-linear-gradient(top, #f8f8f8, 0%, #dedede, 100%);
+  background-image: -moz-linear-gradient(top, #f8f8f8 0%, #dedede 100%);
+  background-image: linear-gradient(to bottom, #f8f8f8 0%, #dedede 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff8f8f8', endColorstr='#ffdedede', GradientType=0);
+}
+.navbar-custom .navbar-brand {
+  color: #873299;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #652573;
+  background-color: transparent;
+}
+.navbar-custom .navbar-text {
+  color: #873299;
+}
+.navbar-custom .navbar-nav > li:last-child > a {
+  border-right: 1px solid #cdcdcd;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #873299;
+  border-left: 1px solid #cdcdcd;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #c0c0c0;
+  background-color: transparent;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #c0c0c0;
+  background-color: #cdcdcd;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#cdcdcd), to(#e7e7e7));
+  background-image: -webkit-linear-gradient(top, #cdcdcd, 0%, #e7e7e7, 100%);
+  background-image: -moz-linear-gradient(top, #cdcdcd 0%, #e7e7e7 100%);
+  background-image: linear-gradient(to bottom, #cdcdcd 0%, #e7e7e7 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffcdcdcd', endColorstr='#ffe7e7e7', GradientType=0);
+}
+.navbar-custom .navbar-nav > .disabled > a,
+.navbar-custom .navbar-nav > .disabled > a:hover,
+.navbar-custom .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+.navbar-custom .navbar-toggle {
+  border-color: #dddddd;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+  border-color: #cccccc;
+}
+.navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+.navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #c0c0c0;
+  border-bottom-color: #c0c0c0;
+}
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+  background-color: #cdcdcd;
+  color: #c0c0c0;
+}
+.navbar-custom .navbar-nav > .open > a .caret,
+.navbar-custom .navbar-nav > .open > a:hover .caret,
+.navbar-custom .navbar-nav > .open > a:focus .caret {
+  border-top-color: #c0c0c0;
+  border-bottom-color: #c0c0c0;
+}
+.navbar-custom .navbar-nav > .dropdown > a .caret {
+  border-top-color: #873299;
+  border-bottom-color: #873299;
+}
+@media (max-width: 767) {
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: #873299;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #c0c0c0;
+    background-color: transparent;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #c0c0c0;
+    background-color: #cdcdcd;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+.navbar-custom .navbar-link {
+  color: #873299;
+}
+.navbar-custom .navbar-link:hover {
+  color: #c0c0c0;
+}

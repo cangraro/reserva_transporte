@@ -1,0 +1,10 @@
+\.orig$
+\.orig\..*$
+\.chg\..*$
+\.rej$
+\.conflict\~$
+^application/libraries/tcpdf$
+^application/config$
+^application/logs$
+^application/third_party/MPDF$
+^tmp$

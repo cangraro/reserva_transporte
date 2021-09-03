@@ -1,0 +1,265 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+}*/
+/* HTML5 display-role reset for older browsers *//*
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+        display: block;
+}
+body {
+        line-height: 1;
+}
+ol, ul {
+        list-style: none;
+}
+blockquote, q {
+        quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+        content: '';
+        content: none;
+}
+table {
+        border-collapse: collapse;
+        border-spacing: 0;
+}*/
+
+/**
+mmm
+Principales
+- Rojo:        #d8262e
+- Amarillo:    #FFA300
+- Morado:      #002e6c
+
+Secundarios
+- Rojo:        #d8262e
+- Naranja:     #808284
+*/
+
+/** nuevos colores
+- Rojo: #d8262e
+- Azul: #002e6c
+- Gris:#808284
+*/
+
+/*body{
+    background: #e5e5e5;
+    font-family:  Trebuchet MS;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+    font-size: 10pt;
+}*/
+
+/*h1 {
+    display: block;
+    font-size: 1.6em;
+    color: #DD2929;
+    text-align: center;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}*/
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+
+body{
+ 
+  font-family:'Lato',sans-serif;
+}
+
+
+.error{
+    border:  1px #d8262e solid;
+}
+  
+  .constructores{
+      width: 120px;
+      height: 93px;
+      background-image: url("../images/constructores.png");
+  }
+  .vip{
+      text-align: center;
+      width: 120px;
+      height: 93px;
+       background-image: url("../images/vip.png");
+  }
+  .avanzado{
+      text-align: center;
+      width: 120px;
+      height: 93px;
+      background-image: url("../images/avanzado.png");
+  }
+  .basico{
+      text-align: center;
+      width: 120px;
+      height: 93px;
+      background-image: url("../images/basico.png");
+  }
+  
+   .urgente{
+       
+      background-color: #d8262e;
+      color:#FFFFFF;
+  }
+  
+  .footer{
+    background-color: #f5f5f5;
+    bottom: 0;
+    height: 60px;
+    //position: absolute;
+    width: 100%;
+  }
+  
+ .navbar-custom {
+  background-color: #dedede;
+  border-color: #cdcdcd;
+/*  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#f8f8f8), to(#dedede));
+  background-image: -webkit-linear-gradient(top, #f8f8f8, 0%, #dedede, 100%);
+  background-image: -moz-linear-gradient(top, #f8f8f8 0%, #dedede 100%);
+  background-image: linear-gradient(to bottom, #f8f8f8 0%, #dedede 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff8f8f8', endColorstr='#ffdedede', GradientType=0);*/
+}
+.navbar-custom .navbar-brand {
+  color: #002e6c;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #652573;
+  background-color: transparent;
+}
+.navbar-custom .navbar-text {
+  color: #002e6c;
+}
+.navbar-custom .navbar-nav > li:last-child > a {
+  border-right: 1px solid #cdcdcd;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #002e6c;
+  border-left: 1px solid #cdcdcd;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #d8262e;
+  background-color: transparent;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #d8262e;
+/*  background-color: #cdcdcd;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#cdcdcd), to(#e7e7e7));
+  background-image: -webkit-linear-gradient(top, #cdcdcd, 0%, #e7e7e7, 100%);
+  background-image: -moz-linear-gradient(top, #cdcdcd 0%, #e7e7e7 100%);
+  background-image: linear-gradient(to bottom, #cdcdcd 0%, #e7e7e7 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffcdcdcd', endColorstr='#ffe7e7e7', GradientType=0);*/
+}
+.navbar-custom .navbar-nav > .disabled > a,
+.navbar-custom .navbar-nav > .disabled > a:hover,
+.navbar-custom .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+.navbar-custom .navbar-toggle {
+  border-color: #dddddd;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+  border-color: #cccccc;
+}
+.navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+.navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #d8262e;
+  border-bottom-color: #d8262e;
+}
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+  background-color: #cdcdcd;
+  color: #d8262e;
+}
+.navbar-custom .navbar-nav > .open > a .caret,
+.navbar-custom .navbar-nav > .open > a:hover .caret,
+.navbar-custom .navbar-nav > .open > a:focus .caret {
+  border-top-color: #d8262e;
+  border-bottom-color: #d8262e;
+}
+.navbar-custom .navbar-nav > .dropdown > a .caret {
+  border-top-color: #002e6c;
+  border-bottom-color: #002e6c;
+}
+@media (max-width: 767) {
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: #002e6c;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #d8262e;
+    background-color: transparent;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #d8262e;
+    background-color: #cdcdcd;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+.navbar-custom .navbar-link {
+  color: #002e6c;
+}
+.navbar-custom .navbar-link:hover {
+  color: #d8262e;
+}
+
+/*para que los paneles sean del mismo tamaño
+*/
+
+.equal, .equal > div[class*='col-'] {  
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 1 auto;
+}

@@ -1,0 +1,36 @@
+reserva rutas y horarios 
+-cuando el usuario ingrese muestre que ya tiene una reserva activa, que no muestre mas viajes.
+-si selecciona un ruta y no tiene viajes que muestre mensaje que no hay disponibilidad. o que no muestre la ruta.
+
+mis datos
+bloquear solo numeros en el campo celular, 
+
+mi viajes.
+cuando queda en curso queda terminado el viaje.
+
+
+Modulo de administrador.
+-sincronizar usuarios y users
+-edicion del usuario perfil.
+
+crear grupo
+validar que crear grupo. opcional
+
+registrar usuario.
+-validar que si el usuario ya esta creado.
+
+rutas
+-verificar el preview. opcional
+-controlar ruta ya existentes. opcional
+
+gestion vehiculos.
+-verificar que la placa no este ingresada.
+-listar solo los conductores que no tienen vehiculos asociados.
+-ingresar vehiculo.
+
+gestion viaje
+-ingresar viaje
+- opcional validar que el vehiculo no este en la misma fecha y hora ocupado.
+
+
+
